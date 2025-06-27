@@ -7,7 +7,7 @@ from datetime import datetime
 HISTORY_FILE = "logs/copilot_history.log"
 os.makedirs("logs", exist_ok=True)
 
-PROMPT = "🧠 Copilot> "
+PROMPT = " Copilot> "
 session_memory = []
 
 def save_to_history(entry):
@@ -27,24 +27,24 @@ def simulate_response(user_input):
         return "Input received. Analyzing pattern... No match found. Continue monitoring."
 
 def copilot_loop():
-    print("🧠 Copilot CLI – Session started. Type 'exit' to quit.")
+    print(" Copilot CLI – Session started. Type 'exit' to quit.")
     while True:
         try:
             user_input = input(PROMPT).strip()
             if not user_input:
                 continue
             if user_input.lower() in ["exit", "quit"]:
-                print("🧠 Session ended.")
+                print(" Session ended.")
                 break
 
             session_memory.append(user_input)
             save_to_history(user_input)
 
             response = simulate_response(user_input)
-            print(f"🤖 {response}")
+            print(f" {response}")
 
         except KeyboardInterrupt:
-            print("\n🧠 Session interrupted.")
+            print("\n Session interrupted.")
             break
 
 if __name__ == "__main__":
