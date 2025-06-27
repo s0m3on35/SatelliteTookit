@@ -28,7 +28,7 @@ def generate_report():
         f.write("# 🛰️ Satellite Defense Toolkit Report\n\n")
         f.write(f"Generated on: {datetime.utcnow().isoformat()}Z\n\n")
 
-        f.write("## 🧠 Copilot Session\n")
+        f.write("##  Copilot Session\n")
         if history:
             for line in history[-10:]:
                 f.write(f"- {line.strip()}\n")
@@ -43,7 +43,7 @@ def generate_report():
             f.write("_No telemetry events found._\n")
 
         f.write("\n---\n")
-        f.write("✅ **Status:** Preliminary analysis complete. Correlate with threat feeds for full enrichment.\n")
+        f.write(" **Status:** Preliminary analysis complete. Correlate with threat feeds for full enrichment.\n")
 
     print(f"[✓] Report generated: {OUTPUT_FILE}")
 
