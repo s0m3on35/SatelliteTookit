@@ -1,6 +1,5 @@
-# 🛰️ Satellite Defense Toolkit (GOD MODE)
-
-Welcome to the **Genius-God-Level** satellite defense toolkit. This suite includes:
+# 🛰️ Satellite Defense Toolkit 
+Welcome to the  satellite defense toolkit. This suite includes:
 
 ## Features
 
@@ -28,7 +27,7 @@ python enrich_iocs.py                 # Enrich recent IOCs
 
 ## Author
 
-🧑‍🚀 Built with AI by ChatGPT and YOU.
+Un1nvit3d
 
 ## License
 
