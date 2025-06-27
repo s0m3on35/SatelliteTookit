@@ -1,14 +1,14 @@
-# 🛰️ Satellite Defense Toolkit 
+#  Satellite Defense Toolkit 
 Welcome to the  satellite defense toolkit. This suite includes:
 
 ## Features
 
-- 🔁 Real-Time Threat Simulator (GNSS, RF, Firmware)
-- 🧠 AI Copilot CLI with session memory
-- 📄 Auto Markdown Report Generator
-- 📊 Streamlit Dashboard (Live Telemetry)
-- 🌐 Threat Feed Enrichment Engine
-- 🐳 Docker-ready Components
+-  Real-Time Threat Simulator (GNSS, RF, Firmware)
+-  AI Copilot CLI with session memory
+-  Auto Markdown Report Generator
+-  Streamlit Dashboard (Live Telemetry)
+-  Threat Feed Enrichment Engine
+-  Docker-ready Components
 
 ## Quick Start
 
@@ -20,7 +20,7 @@ streamlit run live_correlation_dashboard.py  # GUI dashboard
 python enrich_iocs.py                 # Enrich recent IOCs
 ```
 
-📁 Output folders:
+ Output folders:
 - `demo_data/` — Live anomaly stream
 - `logs/` — Copilot session log
 - `reports/` — Reports + enrichment
@@ -29,6 +29,4 @@ python enrich_iocs.py                 # Enrich recent IOCs
 
 Un1nvit3dR34p3R
 
-## License
 
-MIT License
